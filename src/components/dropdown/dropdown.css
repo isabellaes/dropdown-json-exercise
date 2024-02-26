@@ -1,9 +1,7 @@
 .dropdown {
   display: flex;
   flex-direction: column;
-  width: fit-content;
-}
-
-.dropdown label {
-  padding: 5px;
+  width: 50%;
+  padding: 1em;
+  margin-top: 1em;
 }
