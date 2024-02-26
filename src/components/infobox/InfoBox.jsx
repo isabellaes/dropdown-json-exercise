@@ -6,10 +6,10 @@ const InfoBox = ({ props }) => {
       <p>Firstname: {props.firstname}</p>
       <p>Lastname: {props.lastname}</p>
       <p>Color: {props.pant_color}</p>
-      <p>Favourite-food: {props.favorite_food}</p>
+      <p>Favourite-food: {props.favorite_food.join(", ")}</p>
       <p>Favourite-tool: {props.favorite_tool}</p>
       <p>Pet: {props.pet}</p>
-      <p>Hobby: {props.hobby}</p>
+      <p>Hobby: {props.hobby.join(", ")}</p>
     </div>
   );
 };
