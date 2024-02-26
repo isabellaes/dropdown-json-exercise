@@ -1,0 +1,9 @@
+.dropdown {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+}
+
+.dropdown label {
+  padding: 5px;
+}
